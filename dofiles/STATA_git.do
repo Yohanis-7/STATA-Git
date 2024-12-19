@@ -40,22 +40,12 @@ dir
 ** Show where we want to add the file
 ! git remote add origin https://github.com/Yohanis-7/STATA-Git.git
 ! git push -u origin main
-! git branch -b
 
+** It is always great to start creating the repository in the Git-hub desktop then we can push the changes using the following coddes. 
+! git remote add origin https://github.com/Yohanis-7/STATA-Git.git
+! git branch -M main
+! git push -u origin main
 
-***or create a new repository on the command line
-echo "# STATA-Git" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Yohanis-7/STATA-Git.git
-git push -u origin main
-
-** or push an existing repository from the command line
-git remote add origin https://github.com/Yohanis-7/STATA-Git.git
-git branch -M main
-git push -u origin main
 
 
 

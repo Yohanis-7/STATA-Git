@@ -46,6 +46,18 @@ dir
 ! git branch -M main
 ! git push -u origin main
 
+** Tried from this shell **
+* Check status
+! git status
+
+*Add files
+! git add STATA_git.do
+*Commit your changes:
+! git commit -m "Recent changes"
+*Push to GitHub:
+! git push https://github.com/Yohanis-7/STATA-Git.git
+
+
 
 
 
